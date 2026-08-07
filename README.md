@@ -120,7 +120,7 @@ Stress-Managment-Based-Work-Scheduler/
 │ |
 | ├── data/ # Data directory
 <br>
-│ | └── db/ # MongoDB data (auto-created)
+│ | ├── db/ # MongoDB data (auto-created)
 <br>
 ├── server.js # Main Server (port 5000)
 <br>
