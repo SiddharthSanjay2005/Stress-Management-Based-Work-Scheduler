@@ -84,79 +84,46 @@ Git Bash - Terminal for Window
 ## 📁 Project Structure:-
 
 Stress-Managment-Based-Work-Scheduler/
-<br>
 │
 ├── backend/ # Node.js Backend
-<br>
 │ ├── models/ # MongoDB Models
-<br>
 │ │ ├── Faculty.js # Faculty schema
-<br>
 │ │ ├── Timetable.js # Timetable schema
-<br>
 │ │ └── Department.js # Department schema
-<br>
 │ │
 │ ├── routes/ # API Routes
-<br>
 │ │ └── timetable.js # Timetable endpoints
-<br>
 │ │
 │ ├── genetic-algorithm/ # AI Algorithm Core
-<br>
 │ │ └── scheduler.js # Main GA scheduler
-<br>
-│ │ 
+│ │
 │ ├── scripts/ # Utility Scripts
-<br>
 │ │ ├── load-real-college-data.js # Import college data
-<br>
 │ │ ├── simple-init.js # Test DB connection
-<br>
 │ │ ├── start-mongodb.sh # Start MongoDB
-<br>
 │ │ └── stop-mongodb.sh # Stop MongoDB
-<br>
-│ |
-| ├── data/ # Data directory
-<br>
-│ | ├── db/ # MongoDB data (auto-created)
-<br>
-├── server.js # Main Server (port 5000)
-<br>
-├── package.json # Dependencies
-<br>
-├── .env # Environment Variables
-<br>
+│ │
+│ ├── data/ # Data directory
+│ │ └── db/ # MongoDB data (auto-created)
+│ │
+│ ├── server.js # Main Server (port 5000)
+│ ├── package.json # Dependencies
+│ └── .env # Environment Variables
 │
 ├── frontend/ # Web Interface
-<br>
 │ ├── index.html # Main page
-<br>
 │ ├── style.css # Styling
-<br>
 │ └── script.js # Frontend logic
-<br>
-│ 
-├── images/ #Outputs
-<br>
-| ├── Timetable_Generator_Output.png
-<br>
-| ├── PowerBI_Analytics_Output.png
-<br>
-| ├── Low_Stress_Output.png
-<br>
-| ├── Medium_Stress_Output.png
-<br>
-│ ├── High_Stress_Output.png 
-<br>
-|
+│
+├── images/ # Outputs
+│ ├── Timetable_Generator_Output.png
+│ ├── PowerBI_Analytics_Output.png
+│ ├── Low_Stress_Output.png
+│ ├── Medium_Stress_Output.png
+│ └── High_Stress_Output.png
+│
 ├── README.md # This file
-<br>
 └── .gitignore # Git ignore file
-<br>
-
----
 
 ## 📦 Installation:-
 
