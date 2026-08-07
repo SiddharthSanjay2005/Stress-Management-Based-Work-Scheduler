@@ -83,7 +83,7 @@ Git Bash - Terminal for Window
 
 ## 📁 Project Structure:-
 
-AI-Timetable-Generator/
+Stress-Managment-Based-Work-Scheduler/
 <br>
 │
 ├── backend/ # Node.js Backend
@@ -117,7 +117,11 @@ AI-Timetable-Generator/
 <br>
 │ │ └── stop-mongodb.sh # Stop MongoDB
 <br>
-│ 
+│ |
+| ├── data/ # Data directory
+<br>
+│ | └── db/ # MongoDB data (auto-created)
+<br>
 ├── server.js # Main Server (port 5000)
 <br>
 ├── package.json # Dependencies
@@ -133,12 +137,20 @@ AI-Timetable-Generator/
 <br>
 │ └── script.js # Frontend logic
 <br>
-│
-├── data/ # Data directory
+│ 
+├── images/ #Outputs
 <br>
-│ └── db/ # MongoDB data (auto-created)
+| ├── Timetable_Generator_Output.png
 <br>
-│
+| ├── PowerBI_Analytics_Output.png
+<br>
+| ├── Low_Stress_Output.png
+<br>
+| ├── Medium_Stress_Output.png
+<br>
+│ ├── High_Stress_Output.png 
+<br>
+|
 ├── README.md # This file
 <br>
 └── .gitignore # Git ignore file
