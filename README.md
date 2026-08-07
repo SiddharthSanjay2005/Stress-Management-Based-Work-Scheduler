@@ -77,7 +77,7 @@ Python HTTP - Local server
 ### Development:
 VS Code - Source code editor
 Git - Version control
-Git Bash - Terminal for Window
+Git Bash - Terminal for Windows
 
 ---
 
